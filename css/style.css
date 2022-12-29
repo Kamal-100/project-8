@@ -11,7 +11,7 @@ body{
 
 }
 
-ul{
+nav ul{
     background-color: rgb(51, 50, 50);
     text-align: center;
     padding-top: 15px;
@@ -108,7 +108,7 @@ ul li a{
     margin: auto;
     text-align: center;
     background-color: white;
-
+    padding-bottom: 50px;
 }
 
 .content h1 {
@@ -122,12 +122,12 @@ ul li a{
     font-size: 20px;
     margin-bottom: 20px;
     padding: 0 10%;
-
 }
 
 .content img{
     width: 300px;
     height: auto;
+    margin-bottom: 20px;
 }
 .content a {
     font-size: 20px;
@@ -182,29 +182,35 @@ ul li a{
         cursor: pointer;
 
     }
-    ul li:hover{
+     nav ul li:hover{
         background-color: rgb(112, 104, 100);
         cursor: pointer;
         }
     
-    .icons .whats {
-        background-color: green;
-        float: left;
+    
+
+    footer ul {
+
+        background-color: rgb(51, 50, 50);
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
     }
+
     .icons li i{
         background-color: blue;
-        font-size: 50px;
         height: auto;
         padding: 15px;
         font-size: 30px;
         color: white;
         border-radius: 50%;
-
+    }
+    footer ul li:hover{
+        background-color: rgb(56, 56, 131);
+    }
+    footer .whats {
+        float: left;
 
     }
-    .icons li i:hover {
-        background-color: rgb(68, 68, 161);
-
-
-    }
-    
+      
